@@ -67,7 +67,7 @@ Implement a dual ML system that:
 
 ## 2. Tools & Technologies
 
-- **Trello**
+- **Github Project Board**
 - **Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-Learn** 
 - **Jupyter Notebook** 
 - **GitHub (Project Board and Version Control)**
