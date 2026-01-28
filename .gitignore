@@ -1,3 +1,5 @@
+.DS_Store
+.ipynb_checkpoints/
 core.Microsoft*
 core.mongo*
 core.python*
