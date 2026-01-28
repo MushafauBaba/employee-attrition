@@ -12,9 +12,12 @@ Employee Attrition Analysis
 3. [Target Audience](#3-target-audience)
 4. [Expected Deliverables](#4-expected-deliverables)
 5. [Data Transformation Summary](#5-data-transformation-summary)
-6. [How to Run the Project](#6-how-to-run-the-project)
-7. [Team Members & Roles (HackTeam-1)](#7-team-members--roles-hackteam-1)
-8. [Credits](#8-credits)
+6. [Key Findings and Insights](#6-key-findings-and-insights)
+7. [How to Run the Project](#7-how-to-run-the-project)
+8. [Team Members & Roles (HackTeam-1)](#8-team-members--roles-hackteam-1)
+9. [Next Steps](#9-next-steps)
+10. [Data Ethics](#10-data-ethics)
+11. [Credits](#11-credits)
 
 
 ## 1. Project Overview & Goal
@@ -87,42 +90,111 @@ Managers and HR Departments can use this dashboard to:
 
 ## 4. Expected Deliverables
 
+What the final outputs for the project should be:
+
+- A cleaned and structured dataset ready for analysing.
+- A Streamlit dashboard, interactive with data visuals and a machine learning model
+- Project board and README documentation to include key findings, insights and conclusions of this project
+
 <br>
 
 ## 5. Data Transformation Summary
 
-<br>
-
-## 6. How to Run the Project
+**Check with Baba**
 
 <br>
 
+## 6. Key Findings and Insights
+
+### Key Findings
+
+### Machine Learning Summary
+
+### Add Presentation link or file to data folder
+
+<br>
 
 
-## 7. Team Members & Roles (HackTeam-1)
+## 7. How to Run the Project
+
+### How to Run the Project Locally
+
+#### Clone the Repository
+
+```bash
+git clone [https://github.com/MushafauBaba/employee-attrition]
+
+cd employee-attrition
+```
+
+#### Install Dependencies
+
+You will need a ```requirements.txt``` file listing pandas, numpy, streamlit, etc.
+Open your terminal or a Jupyter cell and run:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Run the Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+#### Run the Notebook
+
+Open both `employee-attrition.ipynb` and `employee-attrition-ml.ipynb` respectively and run all cells sequentially. The notebooks will automatically download the data, run the ETL pipeline, and generate all seaborn/matplotlib visualizations.
+
+### How to Deploy Streamlit App 
+
+This application is deployed publicly using **Streamlit Community Cloud**.
+
+The deployment process is as follows:
+
+1. The project code is hosted in a public GitHub repository.
+2. A `requirements.txt` file is included in the repository to specify all Python dependencies required to run the app.
+3. Streamlit Community Cloud automatically installs these dependencies in a clean cloud environment.
+4. The application is launched using the main entry file `app.py`, with additional pages loaded from the `pages/` directory.
+
+The app is available at:
+**Deployed Link**
+
+Doing the above helps to make sure that the app can be used publicly, easily accessible, and therefore not reliant on a local Python environment.
+
+<br>
+
+
+## 8. Team Members & Roles (HackTeam-1)
 
 The below are the members of HackTeam 1 and their roles during the project:
 
-### Data Artchitect - Babatunde & Arphaxad
+### Data Architect - Babatunde & Arphaxad
 
-- Helped designed the structure of the dataset for use during analysis.
-- Involved in the ETL process, including cleaning, transforming and feature engineering.
-- Prepared data ready for Machine Learning.
+- Designed the structure of the dataset for use during analysis.
+- Involved in the ETL pipeline, including cleaning, transforming and feature engineering.
+- Prepared data ready for Machine Learning
 
 ### Data Analysts - Anisa & Babatunde
 
 - Led the exploratory of the data for analysis and to be able to formulate research questions.
 - Created visualisations to find trends and support insights.
 
+### Data Scientist - Arphaxad
+
+- Builder of the prediction model
+- Identify key drivers 
+- Interpret the results of the model
+
 ### Dashboard Developer - Arphaxad & Lola
 
 - Developed an interactive dashboard with visualisations.
-- Streamlit app was created with user friendly layout and filters for exploring the data.
-- App allowed for visual storytelling.
+- Creator of user friendly Streamlit app with filters for exploring the data.
+- App allows for visual storytelling.
 
 ### Project Management
 
-- This was primarily led by Lola but with some shared responsibility with the rest of the team in the following:
+- This was primarily led by Lola with some shared responsibility with the rest of the team in the following:
 
 - Planning of the project overview and goal.
 - Tasks were managed and tracked in the Github Project Board.
@@ -131,7 +203,23 @@ The below are the members of HackTeam 1 and their roles during the project:
 
 <br>
 
-## 8. Credits
+## 9. Next Steps
+
+### Things we would do if time permitted:
+
+
+
+
+<br>
+
+## 10. Data Ethics
+
+This dataset was created by IBM and did not contain any personal or private information.
+
+<br>
+
+
+## 11. Credits
 
 - ChatGPT for debugging and understanding pieces of code.
 - Youtube for how to create and use branches in Github.
