@@ -102,10 +102,10 @@ What the final outputs for the project should be:
 
 **The following features were dropped from the dataframe as they were redundant during the analysis:**
 
-**Employee Number**
-**Employee Count** 
-**Over18**
-**Standard Hours**
+* Employee Number
+* Employee Count
+* Over18
+* Standard Hours**
 
 <br>
 
