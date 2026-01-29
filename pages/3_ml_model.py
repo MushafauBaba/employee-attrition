@@ -18,7 +18,7 @@ The goal is to show a clear, beginner-friendly machine learning workflow.
 # ----------------------------
 # Load data
 # ----------------------------
-df = pd.read_csv("data/insurance_data_clean.csv")
+df = pd.read_csv("data/processed_attrition_dataset.csv")
 
 # ----------------------------
 # Ensure required binary columns exist
