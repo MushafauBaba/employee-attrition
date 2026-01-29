@@ -121,9 +121,23 @@ What the final outputs for the project should be:
 There is also no correlation between Salary hike and Job satisfaction.
 However, there is a strong 0.77 correlation coefficient between Salary Hike percent and Perfomance Rating, which means there is strong linear relationship between salary hike and performance rating. Generally, higher salary hike results to higher performance rating and vice versa.
 
-- There is a string positive relationship between Job Level and Monthly Income with correlation coefficient of 0.95.
+- There is  a string positive relationship between Job Level and Monthly Income with correlation coefficient of 0.95.
 
 ### Machine Learning Summary
+#### Features of Importance
+- Years At Company, 0.460932
+- Total Working Years, 0.360192
+- Monthly Income, 0.085259
+- Years With Current  Manager, 0.050519
+- Years In Current Role, 0.043097
+
+#### Clusters frequencies 
+               
+| Cluster | Proportion | Percentage |
+|---------|------------|------------|
+| 1       | 0.57       | 57%        |
+| 2       | 0.28       | 28%        |
+| 0       | 0.15       | 15%        |
 
 <br>
 
