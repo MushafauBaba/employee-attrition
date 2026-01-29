@@ -185,7 +185,7 @@ The deployment process is as follows:
 4. The application is launched using the main entry file `app.py`, with additional pages loaded from the `pages/` directory.
 
 The app is available at:
-**Deployed Link**
+**https://employee-attrition-hackathon.streamlit.app/**
 
 Doing the above helps to make sure that the app can be used publicly, easily accessible, and therefore not reliant on a local Python environment.
 
