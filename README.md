@@ -100,7 +100,12 @@ What the final outputs for the project should be:
 
 ## 5. Data Transformation Summary
 
-**Check with Baba**
+**The following features were dropped from the dataframe as they were redundant during the analysis:**
+
+**Employee Number**
+**Employee Count** 
+**Over18**
+**Standard Hours**
 
 <br>
 
@@ -108,9 +113,17 @@ What the final outputs for the project should be:
 
 ### Key Findings
 
-### Machine Learning Summary
+- During the EDA process we wanted to see if there was any correlation between the following key features:
+    - Performance Rating and Number of Trainings
+    - Salary Hike Percent and Job Satisfaction
 
-### Add Presentation link or file to data folder
+- Based on the results of the heatmap analysis we can see that there is no correlation or relationship existing between Performance rating and the number of training in the last year.
+There is also no correlation between Salary hike and Job satisfaction.
+However, there is a strong 0.77 correlation coefficient between Salary Hike percent and Perfomance Rating, which means there is strong linear relationship between salary hike and performance rating. Generally, higher salary hike results to higher performance rating and vice versa.
+
+- There is a string positive relationship between Job Level and Monthly Income with correlation coefficient of 0.95.
+
+### Machine Learning Summary
 
 <br>
 
@@ -207,7 +220,8 @@ The below are the members of HackTeam 1 and their roles during the project:
 
 ### Things we would do if time permitted:
 
-
+- Do more in-depth exploratory of the data as there are 31 features
+- Classification during the machine learning process
 
 
 <br>
@@ -223,3 +237,4 @@ This dataset was created by IBM and did not contain any personal or private info
 
 - ChatGPT for debugging and understanding pieces of code.
 - Youtube for how to create and use branches in Github.
+- Used Capstone projects by Baba, Lola and Arpha to help with the Machine Learning and Streamlit app.
