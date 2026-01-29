@@ -125,6 +125,18 @@ However, there is a strong 0.77 correlation coefficient between Salary Hike perc
 
 ### Machine Learning Summary
 
+Features of Importance 
+Years At Company, 0.460932
+Total Working Years, 0.360192
+Monthly Income, 0.085259
+Years With Current Manager, 0.050519
+Years In Current Role, 0.043097
+Clusters frequencies
+Cluster	Proportion	Percentage
+1	0.57	57%
+2	0.28	28%
+0	0.15	15%
+
 <br>
 
 
