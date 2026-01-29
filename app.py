@@ -21,6 +21,3 @@ st.markdown("Here's a quick look at the first 10 rows of the dataset, along with
 st.dataframe(df.head(10), use_container_width=True)
 st.markdown("### Basic Statistics")
 st.dataframe(df.describe(), use_container_width=True)
-st.markdown("### Data Information")
-st.dataframe(df.info(), use_container_width=True)
-
