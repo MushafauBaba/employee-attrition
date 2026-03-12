@@ -102,10 +102,10 @@ What the final outputs for the project should be:
 
 **The following features were dropped from the dataframe as they were redundant during the analysis:**
 
-**Employee Number**
-**Employee Count** 
-**Over18**
-**Standard Hours**
+* Employee Number
+* Employee Count
+* Over18
+* Standard Hours**
 
 <br>
 
@@ -121,9 +121,23 @@ What the final outputs for the project should be:
 There is also no correlation between Salary hike and Job satisfaction.
 However, there is a strong 0.77 correlation coefficient between Salary Hike percent and Perfomance Rating, which means there is strong linear relationship between salary hike and performance rating. Generally, higher salary hike results to higher performance rating and vice versa.
 
-- There is a string positive relationship between Job Level and Monthly Income with correlation coefficient of 0.95.
+- There is  a string positive relationship between Job Level and Monthly Income with correlation coefficient of 0.95.
 
 ### Machine Learning Summary
+#### Features of Importance
+- Years At Company, 0.460932
+- Total Working Years, 0.360192
+- Monthly Income, 0.085259
+- Years With Current  Manager, 0.050519
+- Years In Current Role, 0.043097
+
+#### Clusters frequencies 
+               
+| Cluster | Proportion | Percentage |
+|---------|------------|------------|
+| 1       | 0.57       | 57%        |
+| 2       | 0.28       | 28%        |
+| 0       | 0.15       | 15%        |
 
 <br>
 
@@ -171,7 +185,7 @@ The deployment process is as follows:
 4. The application is launched using the main entry file `app.py`, with additional pages loaded from the `pages/` directory.
 
 The app is available at:
-**Deployed Link**
+**[Deployed Link](https://employee-attrition-hackathon.streamlit.app/)**
 
 Doing the above helps to make sure that the app can be used publicly, easily accessible, and therefore not reliant on a local Python environment.
 
