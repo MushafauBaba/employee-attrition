@@ -29,7 +29,7 @@ for feature in top_features:
     # Set a sensible range using +/- 3 std dev if known, otherwise just default min/max
     default_val = 0
     min_val = 0
-    max_val = 100  # arbitrary max, can adjust
+    max_val = 5000  # arbitrary max, can adjust
     feature_inputs[feature] = st.number_input(
         label=f"{feature}",
         value=int(default_val),
